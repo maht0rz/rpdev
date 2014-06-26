@@ -8,8 +8,10 @@ Rapid Development Class
  *  Create folder ``app/storage``
  
  *  Copy folder rpdev to app/  (app/rpdev)
-  
- *   Create instance of rpdev class:
+ 
+ * Copy rpdev.php into ``plugins`` directory
+
+ *   Create instance of rpdev class in routes.php:
        ``$rpdev = new vibius\plugins\rpdev();``
   
  *   Set login credentials for backend:
