@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>{{$title}}</title>
+        <title>RPDev Class</title>
         <link rel="stylesheet" href="{{$baseUrl}}css/{{$uriKey}}">
     </head>
     <body>
