@@ -7,8 +7,10 @@ Rapid Development Class
  How to use rpdev class?
  *  Create folder ``app/storage``
  
- *  Copy folder rpdev to app/  (app/rpdev)
- 
+ *  Copy folder views/rpdev to app/views/  (app/views/rpdev)
+
+ *  Copy folder rpdev to public/  (public/rpdev) 
+
  * Copy rpdev.php into ``plugins`` directory
 
  *   Create instance of rpdev class in routes.php:
