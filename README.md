@@ -1,7 +1,7 @@
-rpdev
-=====
 
 Rapid Development class of Vibius PHP Framework
+======
+
 
  How to use rpdev class?
  *  Create folder ``app/storage``
