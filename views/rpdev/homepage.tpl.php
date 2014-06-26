@@ -1,8 +1,6 @@
 {{$extends_rpdev/layouts/page}}
 
-   {{$section_title}}
-            {{$title}}
-   {{$sectionEnd_title}}
+
 
    {{$section_projectName}}
             {{$projectName}}
