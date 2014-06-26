@@ -195,6 +195,11 @@ class rpdev{
         $this->_router->any($route,function() use($_view,$view,$route){
             $storage = new \vibius\plugins\rpdev();
             $data = $storage->getDataFromStorage($route);
+            $args = func_get_args();
+            foreach($args as $key => $val){
+                $args2['var'.$key] = $val;
+            }
+            $data = array_merge($args2,$data);
             $_view->load($view)->vars($data)->display();
         });
         
@@ -216,7 +221,13 @@ class rpdev{
                 foreach($sections as $section){
                     $storage[$section] = 'This section has not been edited yet.';
                 }
-                fwrite($handle, '<?php return '.var_export($storage,true).';');
+                if(isset($storage)){
+                    $export = var_export($storage,true);
+                }
+                if(!isset($export)){
+                    $export = var_export(array(),true);
+                }
+                fwrite($handle, '<?php return '.$export.';');
             }
         }
     }
