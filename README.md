@@ -9,7 +9,7 @@ Rapid Development class of Vibius PHP Framework
  *  Copy folder rpdev to app/  (app/rpdev)
   
  *   Create instance of rpdev class:
-       $rpdev = new vibius\plugins\rpdev();
+       ''$rpdev = new vibius\plugins\rpdev();''
   
  *   Set login credentials for backend:
        $rpdev->setLoginCredentials(array('admin' => 'letmein'));
