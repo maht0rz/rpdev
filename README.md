@@ -25,6 +25,7 @@ Rapid Development Class
   
  *   Register your pages:
       ``$rpdev->register('/','rpdev/homepage',array('title','content','footer'));``
+      You can copy in routes.php file with pre-registred homepage.
        
        Pattern:
        ``$rpdev->register(route,view,editable content);``
