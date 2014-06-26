@@ -9,7 +9,6 @@ $rpdev->init();
 $rpdev->register('/','rpdev/homepage',
         array(
             'projectName',
-            'title',
             'jumboTitle',
             'jumboText',
             'section1',
