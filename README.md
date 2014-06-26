@@ -18,6 +18,7 @@ Rapid Development Class
   
  *   Set login credentials for backend:
        ``$rpdev->setLoginCredentials(array('admin' => 'letmein'));``
+     Admin panel is available at route ``admin/login``
   
  *   Initialize generation process
        ``$rpdev->init();``
