@@ -1,5 +1,5 @@
 
-Rapid Development class of Vibius PHP Framework
+Rapid Development Class Vibius PHP Framework
 ======
 
 
