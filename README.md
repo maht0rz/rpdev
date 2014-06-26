@@ -1,7 +1,8 @@
 
-Rapid Development Class Vibius PHP Framework
+Rapid Development Class 
 ======
-
+ 
+ Speeds up web development, and generates backend dashboard with updatable content.
 
  How to use rpdev class?
  *  Create folder ``app/storage``
