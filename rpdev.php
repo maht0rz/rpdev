@@ -196,6 +196,7 @@ class rpdev{
             $storage = new \vibius\plugins\rpdev();
             $data = $storage->getDataFromStorage($route);
             $args = func_get_args();
+            $args2 = array();
             foreach($args as $key => $val){
                 $args2['var'.$key] = $val;
             }
